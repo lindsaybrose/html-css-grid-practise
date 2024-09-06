@@ -1,0 +1,13 @@
+body {background-color: lightseagreen;}
+img {
+  width: 10%;
+  border: 5px solid purple;}
+h1 {font-family: "Lucida Console", "Courier New", monospace;}
+h2 {font-family: "Lucida Console", "Courier New", monospace;}
+a {font-size: 20px;}
+ol {color: green;}
+ul {color: red}
+
+Change the font of all headings - use an inbuilt CSS font for now
+Change the font size of all links
+Change the colour of the text in ordered and unordered lists
