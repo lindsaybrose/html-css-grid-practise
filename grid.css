@@ -1,0 +1,47 @@
+.grid-container {
+  display:grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: 2fr auto auto;
+}
+
+.grid-item {
+  
+}
+body {
+  background-color: #FFE8D6;
+  padding: 0
+}
+h1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  text-align: center;
+  background-color: #FFBF69;
+  padding: 50px;
+  border-style: ridge;
+  font-size: 70;
+  font-family: "Gill Sans", 
+} 
+
+ol {
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#lists {
+  grid-row: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+img {
+  grid-row: 2;
+  grid-column: 2;
+  width: 10%
+}
+
+a {
+  grid-column: 2/3;
+  grid-row: 3;
+}
